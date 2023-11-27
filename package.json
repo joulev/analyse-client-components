@@ -1,0 +1,15 @@
+{
+  "name": "@joulev/analyse-client-components",
+  "description": "Check whether a file is included in the client bundle or not for the Next.js App Router",
+  "version": "1.0.0",
+  "bugs": "https://github.com/joulev/analyse-client-components/issues",
+  "repository": "joulev/analyse-client-components",
+  "license": "MIT",
+  "bin": {
+    "analyse-client-components": "./index.js",
+    "acc": "./index.js"
+  },
+  "dependencies": {
+    "dependency-tree": "^10.0.9"
+  }
+}
